@@ -1,7 +1,7 @@
 # github-action快速接入 fork即可 不需修改代码，只需设置仓库secret对
 1. 获取form信息
 - 使用方法和以前一样，https://app.buaa.edu.cn/site/buaaStudentNcov/index
-- 填好之后打开控制台Internet选项，提交后查看form并复制到脚本之中
+- 填好之后打开控制台Internet选项，提交后查看save 复制为curl命令 在到在线转换为python的字典格式存储起来
 2. fork仓库&设置secrets.xx
 ```
 YOUR_PWD: ${{ secrets.YOUR_PWD }}
@@ -9,7 +9,7 @@ TOKEN: ${{ secrets.TOKEN }}
 YOUR_NAME: ${{secrets.YOUR_NAME}}
 CHAT_ID: ${{secrets.CHAT_ID}}
 WECHAT_KEY: ${{secrets.WECHAT_KEY}}
-FORM: ${{secrets.FORM}}
+FORM: ${{secrets.FORM}} 
 ```
 4. 参考workflow-action，github自动执行
 
