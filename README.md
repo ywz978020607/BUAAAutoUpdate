@@ -3,7 +3,15 @@
 - 使用方法和以前一样，https://app.buaa.edu.cn/site/buaaStudentNcov/index
 - 填好之后打开控制台Internet选项，提交后查看form并复制到脚本之中
 2. fork仓库&设置secrets.xx
-3. 参考workflow-action，github自动执行
+```
+YOUR_PWD: ${{ secrets.YOUR_PWD }}
+TOKEN: ${{ secrets.TOKEN }}
+YOUR_NAME: ${{secrets.YOUR_NAME}}
+CHAT_ID: ${{secrets.CHAT_ID}}
+WECHAT_KEY: ${{secrets.WECHAT_KEY}}
+FORM: ${{secrets.FORM}}
+```
+4. 参考workflow-action，github自动执行
 
 ############
 # BUAAAutoUpdate
