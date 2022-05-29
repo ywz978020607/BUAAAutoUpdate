@@ -98,7 +98,7 @@ def fillForm(res):
         'Content-Type': 'application/x-www-form-urlencoded',
         'Cookie': res.headers['set-cookie']
     }
-    r = s.post('https://app.buaa.edu.cn/buaaxsncov/wap/default/save', data=form_data.encode('utf-8'), headers=headers)
+    r = s.post('https://app.buaa.edu.cn/buaaxsncov/wap/default/save', data=form_data, headers=headers)
     return r
 
 
