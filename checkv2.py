@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 import requests
 import re
 import time
@@ -9,6 +12,8 @@ wechat_key = os.environ["WECHAT_KEY"]
 token = os.environ["TOKEN"]
 chat_id = os.environ["CHAT_ID"]
 form_data = os.environ["FORM"]
+
+print(form_data)
 
 def bot_post(text):
     if wechat_key != "":
