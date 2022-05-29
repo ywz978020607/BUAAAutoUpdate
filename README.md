@@ -1,3 +1,11 @@
+# github-action快速接入
+1. 获取form信息
+- 使用方法和以前一样，https://app.buaa.edu.cn/site/buaaStudentNcov/index
+- 填好之后打开控制台Internet选项，提交后查看form并复制到脚本之中
+2. fork仓库&设置secrets.xx
+3. 参考workflow-action，github自动执行
+
+############
 # BUAAAutoUpdate
 北航打卡。
 北京航空航天大学自动填写”疫情防控通“的每日上报信息。
