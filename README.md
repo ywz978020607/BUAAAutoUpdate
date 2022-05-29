@@ -1,4 +1,4 @@
-# github-action快速接入
+# github-action快速接入 fork即可 不需修改代码，只需设置仓库secret对
 1. 获取form信息
 - 使用方法和以前一样，https://app.buaa.edu.cn/site/buaaStudentNcov/index
 - 填好之后打开控制台Internet选项，提交后查看form并复制到脚本之中
