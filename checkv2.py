@@ -13,6 +13,7 @@ wechat_key = os.environ["WECHAT_KEY"]
 token = os.environ["TOKEN"]
 chat_id = os.environ["CHAT_ID"]
 form_data = os.environ["FORM"]
+raise ValueError("test {},{}".format(form_data,type(form_data)))
 print(form_data)
 form_data = json.loads(str(form_data))
 print(form_data)
