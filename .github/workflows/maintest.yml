@@ -3,7 +3,7 @@ name: autocheck-ywzmain
 on:
   workflow_dispatch: # 手动触发
   schedule: 
-    - cron: '35 9 * * *'
+    - cron: '18 9 * * *'
 
 jobs: 
   check: 
