@@ -3,7 +3,7 @@ name: autocheck
 on:
   #workflow_dispatch: # 手动触发
   schedule: 
-    - cron: '5 9 * * *' # 北京时间17点05分
+    - cron: '11 9 * * *' # 北京时间17点05分
 
 jobs: 
   check: 
