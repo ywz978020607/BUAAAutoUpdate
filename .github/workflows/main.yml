@@ -1,7 +1,7 @@
 name: autocheck-ywzmain
 
 on:
-  workflow_dispatch: # 手动触发
+  #workflow_dispatch: # 手动触发
   schedule: 
     - cron: '10 9 * * *'
 
