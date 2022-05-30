@@ -21,9 +21,9 @@ jobs:
           pip install requests
     - name: check
       env: 
-        YOUR_PWD: ${{ secrets.YOUR_PWD }}
+        YOUR_PWD: ${{ secrets.YOUR_PWD_SHY }}
         TOKEN: ${{ secrets.TOKEN }}
-        YOUR_NAME: ${{secrets.YOUR_NAME}}
+        YOUR_NAME: ${{secrets.YOUR_NAME_SHY}}
         CHAT_ID: ${{secrets.CHAT_ID}}
         WECHAT_KEY: ${{secrets.WECHAT_KEY}}
         FORM: ${{secrets.FORM}}
