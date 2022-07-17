@@ -11,7 +11,7 @@ sfzs=1&bzxyy=&bzxyy_other=&brsfzc=1&tw=&sfcxzz=&zdjg=&zdjg_other=&sfgl=&gldd=&gl
 ```
 
 # + 自动提交出校申请
-原理： 依赖于web版提交抓包https://app.buaa.edu.cn/site/applicationSquare/index?sid=16，也可通过手机+fiddler+端口代理抓包解析
+原理： 依赖于web版提交抓包，[北航小程序web版](https://app.buaa.edu.cn/site/applicationSquare/index?sid=16)，也可通过手机+fiddler+端口代理抓包解析
 - 见check_v2.py中新增函数，其中日期默认是第二天凌晨的核酸+打第三天的假，截图随便传了一张，由于自动审批不会校验，所以无所谓，原因为出校就医，需要修改名字及学号为自己的
 
 
